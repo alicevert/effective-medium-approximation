@@ -5,7 +5,9 @@ The outputs are the components εXX and εXY of the permittivity tensor as a fun
 The EMA Simulation function is adapted from the Absorption Simulation function by Kenzie Lewis and Raaja Rajeshwari Manickam, based off algorithm by Dani et al. [1]
 
 ## Before running the function
+Depending on whether a single wavelength (e.g., 532 nm) or a wavelength sweep (e.g., 200 to 900 nm) is being used, comment out the irrelevant parts.
 Make sure the fitted parameters (for the core - SnO2 or Fe2O3 - and Au) are up to date with the most recent experimental data.
+Comment out the parameters for the type of core that's not of interest (either SnO2 or Fe2O3).
 All the units are SI and the angles are in radians.
 
 # References
