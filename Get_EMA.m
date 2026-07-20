@@ -9,7 +9,7 @@ d = 2.5; %shell thickness [nm]
 n = 25e12; %planar density [m^-2]
 B = 0; %magnetic flux density at sample [T]
 
-% Effective dielectric permittivity
+% Wavelength-dependent dielectric permittivity
 
 [wavelength,eps_XX_lambda,eps_XY_lambda]=EMA_Simulation(b,d,n,B)
 
