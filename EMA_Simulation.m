@@ -1,5 +1,5 @@
 %% Last updated: 2026-07-16 by Alice Calvert
-%% This program is a program to calculate the dielectric permittivity tensor of a composite medium using the Effective Medium Approximation (EMA).
+%% This is a program to calculate the dielectric permittivity tensor of a composite medium using the Effective Medium Approximation (EMA).
 %% The input is the core size (b) and shell thickness (d).
 %% The outputs are the components of the permittivity tensor at each wavelength. For epsilon_zz, runthe function again with B=0.
 %% The simulation is adapted from the Absorption Simulation function by Kenzie Lewis and Raaja Rajeshwari Manickam, based off algorithm by Dani et al. [1]
