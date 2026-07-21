@@ -2,12 +2,12 @@ close all;
 clc
 clear 
 
-% Parameters of SnO2@Au nanoparticles
+% Parameters of composite nanoparticles (SnO2@Au)
 
 b = 12.4; %core radius [nm]
 d = 2.5; %shell thickness [nm]
 n = 25e12; %planar density [m^-2]
-B = 0; %magnetic flux density at sample [T]
+B = 1; %magnetic flux density at sample [T]
 
 % Wavelength-dependent dielectric permittivity
 
@@ -30,14 +30,14 @@ T = table( ...
 writetable(T, "EMA_Output.xlsx");
 
 % Plot
-% 
-% figure
-% 
-% plot(wavelength_um, real(eps_XX_lambda), ...
-%     'b-', 'LineWidth', 2)
-% 
-% xlabel('Wavelength (\mum)')
-% ylabel('Re(\epsilon_{XX})')
-% title('Real Effective Permittivity vs Wavelength for SnO2@Au')
-% 
-% box on
+
+figure
+
+plot(wavelength_um, real(eps_XX_lambda), ...
+    'b-', 'LineWidth', 2)
+
+xlabel('Wavelength (\mum)')
+ylabel('Re(\epsilon_{XX})')
+title('Real Effective Dielectric Permittivity for SnO2@Au')
+
+box on
