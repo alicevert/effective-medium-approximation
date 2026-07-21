@@ -8,7 +8,7 @@ The EMA Simulation function is adapted from the Absorption Simulation function b
 Edit the EMA Simulation file to suit your needs. 
 Depending on whether a single wavelength (e.g., 532 nm) or a wavelength sweep (e.g., 200 to 900 nm) is being used, comment out the irrelevant parts.
 Make sure the fitted parameters (for the core - SnO2 or Fe2O3 - and Au) are up to date with the most recent experimental data.
-Comment out the parameters for the type of core that's not of interest (either SnO2 or Fe2O3).
+Comment out the parameters for the type of core that's not of interest (either SnO2 or Fe2O3). Comment out the dielectric function of the effective medium that's not being used (either water or air).
 All the units are SI and the angles are in radians.
 
 ## Running the simulation
