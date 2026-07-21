@@ -1,15 +1,15 @@
-%% Last updated: 2026-07-16 by Alice Calvert
+%% Last updated: 2026-07-21 by Alice Calvert
 %% This is a program to calculate the dielectric permittivity tensor of a composite medium using the Effective Medium Approximation (EMA).
-%% The input is the core size (b) and shell thickness (d).
-%% The outputs are the εxx and εxy components of the permittivity tensor at each wavelength. For εzz, run the function again with B=0 [1].
-%% The simulation is adapted from the Absorption Simulation function by Kenzie Lewis and Raaja Rajeshwari Manickam, based off algorithm by Dani et al. [2]
+%% The inputs are the core size (b), shell thickness (d), and planar number density [1/m^2] of the nanoparticles, as well as the magnetic flux density (B).
+%% The outputs are the components εxx and εxy of the permittivity tensor at each wavelength. For εzz, run the function again with B=0. [1]
+%% The simulation is adapted from the Absorption Simulation function by Kenzie Lewis and Raaja Rajeshwari Manickam, based off algorithm by Dani et al. [3]
 %% Make sure fitted parameters are up to date with the most recent experimental data.
 %% All units are SI. Angles are in rads.
 
 %% -------------------------------------------------------------------------- %%
 %% ------------------------------- References ------------------------------- %%
 %% -------------------------------------------------------------------------- %%
-%% [1] T.K. Xia, P.M. Hui, and D. Stroud, “Theory of Faraday rotation in granular magnetic materials,” Journal of Applied Physics 67(6), 2736–2741 (1990).
+%% [1] T.K. Xia, P.M. Hui, and D. Stroud, "Theory of Faraday rotation in granular magnetic materials," Journal of Applied Physics 67(6), 2736–2741 (1990).
 %% [2] R.K. Dani et al., “Supplemental Material for "Faraday rotation enhancement 
 %%     of gold coated Fe2O3 nanoparticles: Comparison of experiment and theory” "
 %%     J. Chem. Phys, vol. 135, no. 224502, 2011. 
