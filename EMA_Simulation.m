@@ -44,7 +44,6 @@ ns=planar_density/(2*a);          % number density
 Vs=(4/3)*pi*a^3;                   % particle volume
 fs=ns*Vs;                          % volume fraction of particles in medium
 
-% permittivity=[];                   % variable that will store permittivity values
 wavelength = 200e-9:1e-9:900e-9;    % sweep (comment out fixed wavelength)
 % wavelength = 532e-9;               % fixed (comment out wavelength sweep)
 eps_XX_lambda = zeros(length(wavelength),1);
