@@ -13,6 +13,7 @@ All the units are SI and the angles are in radians.
 
 ## Running the simulation
 Run the function in the Get EMA file. This script runs the function and formats the outputs in an excel table and plot.
+![Figure Description](ema_plot.png)   
 
 # References
 [1] T.K. Xia, P.M. Hui, and D. Stroud, “Theory of Faraday rotation in granular magnetic materials,” Journal of Applied Physics 67(6), 2736–2741 (1990). \
